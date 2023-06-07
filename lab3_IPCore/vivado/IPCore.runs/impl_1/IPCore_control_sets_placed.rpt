@@ -1,0 +1,71 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr 19 17:08:44 2023
+| Host         : DESKTOP-FE9FEV0 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file IPCore_control_sets_placed.rpt
+| Design       : IPCore
+| Device       : xc7a200t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     8 |
+| Unused register locations in slices containing registers |    32 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              30 |           29 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              42 |           19 |
+| Yes          | No                    | No                     |              30 |           12 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              34 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+----------------------+-----------------------------+------------------+----------------+
+|          Clock Signal         |     Enable Signal    |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++-------------------------------+----------------------+-----------------------------+------------------+----------------+
+|  TMDS_inst/tmds_clk_IBUF_BUFG |                      |                             |                2 |              3 |
+|  TMDS_inst/tmds_clk_IBUF_BUFG |                      | TMDS_inst/clear             |                1 |              5 |
+|  DCM_INST/inst/clk_out1       |                      | sync_inst/EndLine           |                4 |             10 |
+|  DCM_INST/inst/clk_out1       | sync_inst/EndLine    | sync_inst/PosY_reg          |                5 |             10 |
+|  DCM_INST/inst/clk_out1       | sync_inst/ActiveArea | TMDS_inst/encode_blue/SR[0] |                6 |             24 |
+|  DCM_INST/inst/clk_out1       |                      |                             |               27 |             27 |
+|  DCM_INST/inst/clk_out1       |                      | reset_IBUF                  |               14 |             27 |
+|  TMDS_inst/tmds_clk_IBUF_BUFG | TMDS_inst/clear      |                             |               12 |             30 |
++-------------------------------+----------------------+-----------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 3      |                     1 |
+| 5      |                     1 |
+| 10     |                     2 |
+| 16+    |                     4 |
++--------+-----------------------+
+
+

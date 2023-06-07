@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Apr 12 16:41:56 2023
+# Process ID: 3436
+# Current directory: D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16664 D:\MyFiles\sophomore2\SystemDesignLab\3210100658\lab5\vivado\Combinational_Circuit_Module.xpr
+# Log file: D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/vivado/vivado.log
+# Journal file: D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/vivado/Combinational_Circuit_Module.xpr
+update_compile_order -fileset sources_1

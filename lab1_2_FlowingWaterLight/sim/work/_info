@@ -1,0 +1,107 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/modeltech64_10.4/examples
+vcounter_n
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7GEoP_3RK]YWfm7GMi]ZU2
+IoA4hQOVAdfWN03m6znBHz1
+Z1 dD:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/sim
+Z2 w1604498986
+8D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/counter_n.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/counter_n.v
+L0 5
+Z3 OL;L;10.4;61
+!s108 1678265741.447000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/counter_n.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/counter_n.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcounter_up_dn
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?noC0H?`B5XBf`j>2S[fj2
+IVUP<kW<_ela6CPFToL]HK2
+R1
+R2
+8D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/counter_up_down.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/counter_up_down.v
+L0 6
+R3
+!s108 1678265741.561000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/counter_up_down.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/counter_up_down.v|
+!i113 0
+R4
+vdecode
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 bG;UH[6kdhoH^^obdUUfo3
+IA;dHW@daK7:iSez]Zmi6L2
+R1
+w1678265719
+8D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/decode.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/decode.v
+L0 4
+R3
+!s108 1678265741.680000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/decode.v|
+!i113 0
+R4
+vFlowingWateLight_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 k[_eBRJAJHhO:9mMTE0;j1
+Ioe@LNT^En0z5:mC9ooj7G0
+R1
+R2
+8D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/FlowingWaterLight_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/FlowingWaterLight_tb.v
+L0 6
+R3
+!s108 1678265741.932000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/FlowingWaterLight_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/FlowingWaterLight_tb.v|
+!i113 0
+R4
+n@flowing@wate@light_tb
+vFlowingWaterLight
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 I11WQNRDm5k?i6[bN3n@F0
+I_>366O]8QWMB_<D[g1<N42
+R1
+w1678264969
+8D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/FlowingWaterLight.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/FlowingWaterLight.v
+L0 1
+R3
+!s108 1678265741.801000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/FlowingWaterLight.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/src/FlowingWaterLight.v|
+!i113 0
+R4
+n@flowing@water@light

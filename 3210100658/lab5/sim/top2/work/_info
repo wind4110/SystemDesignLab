@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/sim/top1
+vcomp
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 k>JJkVnTYFo0QR@4Wl<WT2
+IHWc5JWAm^^XPoD9`m=5901
+Z1 dD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/sim/top2
+w1678975743
+8D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/comp.v
+FD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/comp.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1679489952.709000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/comp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/comp.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vModeComparator
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 2dV><VJ>m?G]gIF?W]L6z3
+IZGH`[mM3UGo^:=M_005;o3
+R1
+w1678981522
+8D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/ModeComparator.v
+FD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/ModeComparator.v
+L0 1
+R2
+!s108 1679489952.798000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/ModeComparator.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/ModeComparator.v|
+!i113 0
+R3
+n@mode@comparator
+vModeComparator_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 0<9AXIHa`Lz84D5R[5]Qg3
+I><bjIeZA2<D;AzSg`T3j00
+R1
+w1678981607
+8D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/ModeComparator_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/ModeComparator_tb.v
+L0 2
+R2
+!s108 1679489952.887000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/ModeComparator_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/ModeComparator_tb.v|
+!i113 0
+R3
+n@mode@comparator_tb
+vmux_2to1
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 og6dmH<M]4mEGemlMd<P83
+ILHH8T@CDgY7zI35?9AR0S3
+R1
+w1678976381
+8D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v
+FD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v
+L0 1
+R2
+!s108 1679489952.974000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v|
+!i113 0
+R3

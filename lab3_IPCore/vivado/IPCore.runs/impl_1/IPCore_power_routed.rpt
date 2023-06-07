@@ -1,0 +1,168 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date             : Wed Apr 19 17:09:54 2023
+| Host             : DESKTOP-FE9FEV0 running 64-bit major release  (build 9200)
+| Command          : report_power -file IPCore_power_routed.rpt -pb IPCore_power_summary_routed.pb -rpx IPCore_power_routed.rpx
+| Design           : IPCore
+| Device           : xc7a200tfbg484-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 0.265        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 0.127        |
+| Device Static (W)        | 0.139        |
+| Effective TJA (C/W)      | 2.5          |
+| Max Ambient (C)          | 84.3         |
+| Junction Temperature (C) | 25.7         |
+| Confidence Level         | Medium       |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++----------------+-----------+----------+-----------+-----------------+
+| On-Chip        | Power (W) | Used     | Available | Utilization (%) |
++----------------+-----------+----------+-----------+-----------------+
+| Clocks         |     0.004 |        6 |       --- |             --- |
+| Slice Logic    |     0.007 |     3133 |       --- |             --- |
+|   LUT as Logic |     0.006 |     2072 |    133800 |            1.55 |
+|   F7/F8 Muxes  |    <0.001 |      816 |    133800 |            0.61 |
+|   CARRY4       |    <0.001 |       18 |     33450 |            0.05 |
+|   Register     |    <0.001 |      136 |    267600 |            0.05 |
+|   Others       |     0.000 |       14 |       --- |             --- |
+| Signals        |     0.004 |     1368 |       --- |             --- |
+| PLL            |     0.107 |        1 |        10 |           10.00 |
+| I/O            |     0.006 |       10 |       285 |            3.51 |
+| Static Power   |     0.139 |          |           |                 |
+| Total          |     0.265 |          |           |                 |
++----------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     0.054 |       0.024 |      0.031 |
+| Vccaux    |       1.800 |     0.085 |       0.055 |      0.031 |
+| Vcco33    |       3.300 |     0.006 |       0.001 |      0.005 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+-------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                               | Action                                                                                                     |
++-----------------------------+------------+-------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                      |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks                |                                                                                                            |
+| I/O nodes activity          | Medium     | More than 5% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes        | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                          |                                                                                                            |
+|                             |            |                                                       |                                                                                                            |
+| Overall confidence level    | Medium     |                                                       |                                                                                                            |
++-----------------------------+------------+-------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 2.5                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.2                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++------------------+--------------------------------+-----------------+
+| Clock            | Domain                         | Constraint (ns) |
++------------------+--------------------------------+-----------------+
+| clk              | clk                            |            10.0 |
+| clk_out1_DCM_PLL | DCM_INST/inst/clk_out1_DCM_PLL |            40.0 |
+| clk_out2_DCM_PLL | DCM_INST/inst/clk_out2_DCM_PLL |             4.0 |
+| clkfbout_DCM_PLL | DCM_INST/inst/clkfbout_DCM_PLL |            10.0 |
++------------------+--------------------------------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++-----------------------------------+-----------+
+| Name                              | Power (W) |
++-----------------------------------+-----------+
+| IPCore                            |     0.127 |
+|   DCM_INST                        |     0.107 |
+|     inst                          |     0.107 |
+|   ROMInst                         |     0.007 |
+|     U0                            |     0.007 |
+|       synth_options.dist_mem_inst |     0.007 |
+|         gen_rom.rom_inst          |     0.007 |
+|   TMDS_inst                       |     0.004 |
+|     encode_blue                   |    <0.001 |
+|       numbercnt_d_inst            |    <0.001 |
+|       numbercnt_q_inst            |    <0.001 |
+|     encode_green                  |    <0.001 |
+|       numbercnt_d_inst            |    <0.001 |
+|       numbercnt_q_inst            |    <0.001 |
+|     encode_red                    |    <0.001 |
+|       numbercnt_d_inst            |    <0.001 |
+|       numbercnt_q_inst            |    <0.001 |
+|   sync_inst                       |     0.003 |
++-----------------------------------+-----------+
+
+

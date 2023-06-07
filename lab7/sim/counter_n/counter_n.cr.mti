@@ -1,0 +1,15 @@
+D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/counter_n.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/counter_n.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter_n
+
+Top level modules:
+	counter_n
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/counter_n_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/counter_n_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter_n_tb
+
+Top level modules:
+	counter_n_tb
+
+} {} {}}

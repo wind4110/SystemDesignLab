@@ -1,0 +1,223 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/MyFiles/sophomore2/SystemDesignLab/lab1_2_FlowingWaterLight/sim
+vabs_dif
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 jCdLFZLWW5eQbA]PDoKVK2
+IHPRQUS?WTb8d;US><DUih0
+Z1 dD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/sim
+w1678977609
+8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1678981611.516000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vabs_dif_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 USlAkfO]P5QYVLM@6NH`?1
+I2HCP=V?kIi]2eMX`CT9l]0
+R1
+Z4 w1604499008
+8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif_tb.v
+L0 1
+R2
+!s108 1678981611.601000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif_tb.v|
+!i113 0
+R3
+vcomp
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 k>JJkVnTYFo0QR@4Wl<WT2
+Ia=^T1=E`4I]7];V3GUJM<0
+R1
+w1678975743
+8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp.v
+L0 1
+R2
+!s108 1678981611.690000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp.v|
+!i113 0
+R3
+vcomp_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 7EK<<:ZX[>I?PJ[T9nEAF0
+Iae_T06[L=LoH0J?Bm0`mV1
+R1
+R4
+8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp_tb.v
+L0 8
+R2
+!s108 1678981611.778000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp_tb.v|
+!i113 0
+R3
+vfull_adder
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 7T8AfoAZ?8iT87[POKE7_3
+I3f2Rk^MFg0_ONKgj6hkI:2
+R1
+w1678976244
+8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder.v
+L0 1
+R2
+!s108 1678981611.866000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder.v|
+!i113 0
+R3
+vfull_adder_tb_v
+!s110 1678981611
+!i10b 1
+!s100 =a:I1RcM[i554;VoT^AS;0
+IS^_`9;KTG5ijWOUVgXA`B3
+R0
+R1
+R4
+8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder_tb.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1678981611.954000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder_tb.v|
+!i113 0
+R3
+vModeComparator
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 2dV><VJ>m?G]gIF?W]L6z3
+IN3dmY=J;5lXH^O]19[Z<Q3
+R1
+w1678981522
+8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator.v
+L0 1
+R2
+!s108 1678981612.304000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator.v|
+!i113 0
+R3
+n@mode@comparator
+vModeComparator_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 0<9AXIHa`Lz84D5R[5]Qg3
+IoElB2odEzm]>WV?z>I@ak3
+R1
+w1678981607
+8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator_tb.v
+L0 2
+R2
+!s108 1678981612.041000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator_tb.v|
+!i113 0
+R3
+n@mode@comparator_tb
+vmux_2to1
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 og6dmH<M]4mEGemlMd<P83
+IKRDKI>o`HU6b>EN@9c@_>2
+R1
+w1678976381
+Z5 8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1.v
+Z6 FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1.v
+L0 1
+R2
+!s108 1678981612.128000
+Z7 !s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1.v|
+Z8 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1.v|
+!i113 0
+R3
+vmux_2to1_tb_v
+!s110 1678981612
+!i10b 1
+!s100 =EcECZHkJfMGf[ojcldD20
+IM4PObkLVYG@jLFn<z[UoW1
+R0
+R1
+R4
+8D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1_tb.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1678981612.216000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1_tb.v|
+!i113 0
+R3
+vmux_2tol
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 M:L8f[8DoGZ_L7J;3HKRz1
+IhD7`THP1W2:WCkNGRJT[W3
+R1
+w1678969963
+R5
+R6
+L0 1
+R2
+!s108 1678976252.631000
+R7
+R8
+!i113 0
+R3

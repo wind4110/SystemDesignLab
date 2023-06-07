@@ -1,0 +1,29 @@
+D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/counter_n.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/counter_n.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter_n
+
+Top level modules:
+	counter_n
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/mcu.v {1 {vlog -work work -vopt -stats=none {D:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\mcu.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mcu
+
+Top level modules:
+	mcu
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/countrol_mcu.v {1 {vlog -work work -vopt -stats=none {D:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\countrol_mcu.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module control_mcu
+
+Top level modules:
+	control_mcu
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/mcu_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/mcu_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mcu_tb_v
+
+Top level modules:
+	mcu_tb_v
+
+} {} {}}

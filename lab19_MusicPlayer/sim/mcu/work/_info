@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/sim
+vcontrol_mcu
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 j:9X^=8TbAcF3g0e<ihd^3
+IGClP:mQj5SSlN0bPBX5C[0
+Z1 dD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/sim/mcu
+w1684069197
+8D:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\countrol_mcu.v
+FD:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\countrol_mcu.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1684069492.445000
+!s107 D:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\countrol_mcu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\countrol_mcu.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcounter_n
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 :i133c8>elmYcKGmYFfio1
+I<VR7YX?9AlS45W]3HT5^e0
+R1
+w1681358417
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/counter_n.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/counter_n.v
+L0 1
+R2
+!s108 1684069492.705000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/counter_n.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/counter_n.v|
+!i113 0
+R3
+vmcu
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 WCMRIJG?DoAMb?Ca`=YS=3
+I55]5hb]7MR49=<MWMRg=k0
+R1
+w1684069486
+8D:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\mcu.v
+FD:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\mcu.v
+L0 1
+R2
+!s108 1684069492.535000
+!s107 D:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\mcu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\MyFiles\sophomore2\SystemDesignLab\lab19_MusicPlayer\src\mcu.v|
+!i113 0
+R3
+vmcu_tb_v
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 3hafPDe;F;21h^zHOLjgM3
+I=5G^4:X9V[VK5i>n5DB^83
+R1
+w1513577406
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/mcu_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/mcu_tb.v
+L0 9
+R2
+!s108 1684069492.625000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/mcu_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer/src/mcu_tb.v|
+!i113 0
+R3

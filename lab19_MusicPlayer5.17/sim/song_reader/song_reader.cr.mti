@@ -1,0 +1,57 @@
+D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_change.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_change.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ending_change
+
+Top level modules:
+	ending_change
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module song_reader_tb_v
+
+Top level modules:
+	song_reader_tb_v
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dffre.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dffre.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dffre
+
+Top level modules:
+	dffre
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_reader.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_reader.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module control_reader
+
+Top level modules:
+	control_reader
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_judge.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_judge.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ending_judge
+
+Top level modules:
+	ending_judge
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_rom.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_rom.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module song_rom
+
+Top level modules:
+	song_rom
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module song_reader
+
+Top level modules:
+	song_reader
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/counter_n.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/counter_n.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter_n
+
+Top level modules:
+	counter_n
+
+} {} {}}

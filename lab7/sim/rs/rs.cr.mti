@@ -1,0 +1,15 @@
+D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module rsff
+
+Top level modules:
+	rsff
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module rs_tb_v
+
+Top level modules:
+	rs_tb_v
+
+} {} {}}

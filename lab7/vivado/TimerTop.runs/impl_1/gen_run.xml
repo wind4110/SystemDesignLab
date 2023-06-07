@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg484-1" LaunchTime="1681372524">
+  <File Type="ROUTE-PWR" Name="TimerTop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="TimerTop.tcl"/>
+  <File Type="PWROPT-DCP" Name="TimerTop_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="TimerTop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="TimerTop_reports.tcl"/>
+  <File Type="BG-DRC" Name="TimerTop.drc"/>
+  <File Type="OPT-HWDEF" Name="TimerTop.hwdef"/>
+  <File Type="OPT-DCP" Name="TimerTop_opt.dcp"/>
+  <File Type="OPT-DRC" Name="TimerTop_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="TimerTop_placed.dcp"/>
+  <File Type="PLACE-IO" Name="TimerTop_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TimerTop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TimerTop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TimerTop_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TimerTop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TimerTop_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="TimerTop_physopt.dcp"/>
+  <File Type="BG-BIT" Name="TimerTop.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TimerTop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="TimerTop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TimerTop_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="TimerTop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TimerTop_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="TimerTop_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="TimerTop.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TimerTop_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="TimerTop.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TimerTop_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="TimerTop.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TimerTop_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="TimerTop.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="TimerTop_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="TimerTop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TimerTop_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TimerTop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TimerTop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TimerTop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="TimerTop_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="TimerTop.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TimerTop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TimerTop_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="TimerTop.nky"/>
+  <File Type="BITSTR-BMM" Name="TimerTop_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="TimerTop.mmi"/>
+  <File Type="BITSTR-LTX" Name="TimerTop.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="TimerTop.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/counter_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/dffre.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rs.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/timer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/TimerTop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TimerTop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../src/TimerTop.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../src/TimerTop.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

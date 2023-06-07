@@ -1,0 +1,15 @@
+D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/full_adder.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/full_adder.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/full_adder_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/full_adder_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module full_adder_tb_v
+
+Top level modules:
+	full_adder_tb_v
+
+} {} {}}

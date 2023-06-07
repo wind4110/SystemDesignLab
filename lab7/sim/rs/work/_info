@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/MyFiles/sophomore2/SystemDesignLab/lab7/sim/dffre
+vrs_tb_v
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Jj]LB>nJ?PgJLfMoSG93T1
+IeSKdl_Jfh_0G[Y?8_26C83
+Z1 dD:/MyFiles/sophomore2/SystemDesignLab/lab7/sim/rs
+w1604499010
+8D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs_tb.v
+L0 14
+Z2 OL;L;10.4;61
+!s108 1682006807.583000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs_tb.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vrsff
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;ZY5nfL]?GiH]>aK:N:8P1
+I<@=6[7B56M0H3Yaak30oI1
+R1
+w1681896990
+8D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs.v
+L0 1
+R2
+!s108 1682006807.672000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab7/src/rs.v|
+!i113 0
+R3

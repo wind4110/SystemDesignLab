@@ -1,0 +1,71 @@
+D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ModeComparator
+
+Top level modules:
+	ModeComparator
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module abs_dif_tb
+
+Top level modules:
+	abs_dif_tb
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/ModeComparator_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ModeComparator_tb
+
+Top level modules:
+	ModeComparator_tb
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module comp
+
+Top level modules:
+	comp
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/full_adder_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module full_adder_tb_v
+
+Top level modules:
+	full_adder_tb_v
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux_2to1
+
+Top level modules:
+	mux_2to1
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/abs_dif.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module abs_dif
+
+Top level modules:
+	abs_dif
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/comp_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module comp_tb
+
+Top level modules:
+	comp_tb
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab5_Combinational_Circuit_Module/src/mux_2to1_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux_2to1_tb_v
+
+Top level modules:
+	mux_2to1_tb_v
+
+} {} {}}

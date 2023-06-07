@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/sim/full_adder
+vmux_2to1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 og6dmH<M]4mEGemlMd<P83
+ILHH8T@CDgY7zI35?9AR0S3
+Z1 dD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/sim/mux2to1
+w1678976381
+8D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v
+FD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1679489633.014000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vmux_2to1_tb_v
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 =EcECZHkJfMGf[ojcldD20
+IFQHG0C=U[6;FTcflRi30V0
+R1
+w1604499008
+8D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1_tb.v
+L0 8
+R2
+!s108 1679489633.104000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1_tb.v|
+!i113 0
+R3

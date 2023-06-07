@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun May 14 16:03:14 2023
+# Process ID: 12856
+# Current directory: D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13580 D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\vivado\button_process_unit.xpr
+# Log file: D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/vivado/vivado.log
+# Journal file: D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/vivado/button_process_unit.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/vivado/button_process_unit.runs/impl_1/button_unit.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/vivado/button_process_unit.runs/impl_1/button_unit.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/vivado/button_process_unit.runs/impl_1/button_unit.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]

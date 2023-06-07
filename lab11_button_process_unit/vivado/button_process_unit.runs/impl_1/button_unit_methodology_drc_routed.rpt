@@ -1,0 +1,50 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun May 14 16:50:44 2023
+| Host         : DESKTOP-FE9FEV0 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file button_unit_methodology_drc_routed.rpt -pb button_unit_methodology_drc_routed.pb -rpx button_unit_methodology_drc_routed.rpx
+| Design       : button_unit
+| Device       : xc7a200tfbg484-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 3
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay | 3          |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on ButtonIn relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on reset relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on led relative to clock(s) clk
+Related violations: <none>
+
+

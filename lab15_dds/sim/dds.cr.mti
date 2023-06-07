@@ -1,0 +1,36 @@
+D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/fulladder_n.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/fulladder_n.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fulladder_n
+
+Top level modules:
+	fulladder_n
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/sine_rom.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/sine_rom.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sine_rom
+
+Top level modules:
+	sine_rom
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dds_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dds_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dds_tb
+
+Top level modules:
+	dds_tb
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dds.v {1 {vlog -work work -vopt -stats=none {D:\MyFiles\sophomore2\SystemDesignLab\lab15_dds\src\dds.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dds
+
+Top level modules:
+	dds
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dffre.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dffre.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dffre
+
+Top level modules:
+	dffre
+
+} {} {}}

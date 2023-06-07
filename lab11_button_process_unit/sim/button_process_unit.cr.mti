@@ -1,0 +1,64 @@
+D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/button_process_unit_tb.v {1 {vlog -work work -vopt -stats=none {D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit_tb.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module button_press_tb
+
+Top level modules:
+	button_press_tb
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/dffre.v {1 {vlog -work work -vopt -stats=none {D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\dffre.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dffre
+
+Top level modules:
+	dffre
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/debouncer.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/debouncer.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module debouncer
+
+Top level modules:
+	debouncer
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/timer.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/timer.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/counter_n.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/counter_n.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter_n
+
+Top level modules:
+	counter_n
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/control.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/control.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/synch.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/synch.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module synch
+
+Top level modules:
+	synch
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/button_process_unit.v {1 {vlog -work work -vopt -stats=none {D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module button_unit
+
+Top level modules:
+	button_unit
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/pulsecon.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/pulsecon.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module pulsecon
+
+Top level modules:
+	pulsecon
+
+} {} {}}

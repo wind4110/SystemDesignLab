@@ -1,0 +1,163 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/modeltech64_10.4/examples
+vcontrol_reader
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 AoVInL6ZPzGnE:CnIMC@A2
+IgemBQmk3a=HKA[>z_WlQN0
+Z1 dD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/sim/song_reader
+w1684314775
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_reader.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_reader.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1685950697.588000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_reader.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_reader.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcounter_n
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 :i133c8>elmYcKGmYFfio1
+Ia0m__WCQEL87BM8WcSH<n2
+R1
+w1681358417
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/counter_n.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/counter_n.v
+L0 1
+R2
+!s108 1685950697.694000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/counter_n.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/counter_n.v|
+!i113 0
+R3
+vdffre
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 g0gj_gRz7g@1fF@;eF0dn0
+I[?P?FK<AYY9>1`B<a@B7l1
+R1
+w1681358092
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dffre.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dffre.v
+L0 1
+R2
+!s108 1685950698.354000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dffre.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dffre.v|
+!i113 0
+R3
+vending_change
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 9S@=m2^l<G1N50<W`<`M53
+IcFHR=9_08KU:YQEA4P`4F2
+R1
+w1685950623
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_change.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_change.v
+L0 1
+R2
+!s108 1685950698.250000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_change.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_change.v|
+!i113 0
+R3
+vending_judge
+!s110 1685950697
+!i10b 1
+!s100 EDI`]bj6UORJSOV>NeS]@2
+IKel;aSbURjREb^Z8eWbin0
+R0
+R1
+w1685708723
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_judge.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_judge.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1685950697.804000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_judge.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/ending_judge.v|
+!i113 0
+R3
+vsong_reader
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Bh4WnUR=@eSL@^77nY><G3
+I;_7Oo]:TZ8OW@AZ6YhKd<1
+R1
+w1685950302
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader.v
+L0 1
+R2
+!s108 1685950697.923000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader.v|
+!i113 0
+R3
+vsong_reader_tb_v
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 B1znWACEY1icnd>SNz4:R2
+IIScUL<K]ZDZcio9NXbOZ=2
+R1
+w1685523163
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader_tb.v
+L0 9
+R2
+!s108 1685950698.032000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_reader_tb.v|
+!i113 0
+R3
+vsong_rom
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 BhzFkjO_lLNDHYhIDH[8R0
+I7<iP<U_eb@2KS8Sg<zmXR1
+R1
+w1685949575
+8D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_rom.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_rom.v
+L0 12
+R2
+!s108 1685950698.140000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_rom.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_rom.v|
+!i113 0
+R3

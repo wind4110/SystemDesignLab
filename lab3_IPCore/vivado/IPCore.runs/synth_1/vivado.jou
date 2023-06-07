@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Apr 19 17:07:22 2023
+# Process ID: 1444
+# Current directory: D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1
+# Command line: vivado.exe -log IPCore.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IPCore.tcl
+# Log file: D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/IPCore.vds
+# Journal file: D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IPCore.tcl -notrace

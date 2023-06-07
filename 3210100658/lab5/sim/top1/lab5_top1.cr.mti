@@ -1,0 +1,36 @@
+D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/full_adder.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/full_adder.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/mux_2to1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux_2to1
+
+Top level modules:
+	mux_2to1
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/comp.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/comp.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module comp
+
+Top level modules:
+	comp
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/abs_dif.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/abs_dif.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module abs_dif
+
+Top level modules:
+	abs_dif
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/abs_dif_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/3210100658/lab5/src/abs_dif_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module abs_dif_tb
+
+Top level modules:
+	abs_dif_tb
+
+} {} {}}

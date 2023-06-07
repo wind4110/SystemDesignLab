@@ -1,0 +1,398 @@
+
+*** Running vivado
+    with args -log IPCore.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source IPCore.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source IPCore.tcl -notrace
+Command: synth_design -top IPCore -part xc7a200tfbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9176 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 354.484 ; gain = 99.125
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'IPCore' [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/IPCore.v:2]
+INFO: [Synth 8-638] synthesizing module 'DCM_PLL' [D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/realtime/DCM_PLL_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'DCM_PLL' (1#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/realtime/DCM_PLL_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'syncGenarator' [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/syncGenarator.v:5]
+	Parameter H_ACTIVE bound to: 640 - type: integer 
+	Parameter H_FRONT bound to: 16 - type: integer 
+	Parameter H_SYNC bound to: 96 - type: integer 
+	Parameter H_BACK bound to: 48 - type: integer 
+	Parameter V_ACTIVE bound to: 480 - type: integer 
+	Parameter V_FRONT bound to: 11 - type: integer 
+	Parameter V_SYNC bound to: 2 - type: integer 
+	Parameter V_BACK bound to: 31 - type: integer 
+	Parameter H_TOTAL bound to: 800 - type: integer 
+	Parameter V_TOTAL bound to: 524 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'syncGenarator' (2#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/syncGenarator.v:5]
+INFO: [Synth 8-638] synthesizing module 'PictureROM' [D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/realtime/PictureROM_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'PictureROM' (3#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/realtime/PictureROM_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'TMDSencode' [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/TMDSencode.v:2]
+INFO: [Synth 8-256] done synthesizing module 'TMDSencode' (4#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/TMDSencode.v:2]
+INFO: [Synth 8-638] synthesizing module 'OBUFDS' [D:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:27284]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-256] done synthesizing module 'OBUFDS' (5#1) [D:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:27284]
+INFO: [Synth 8-256] done synthesizing module 'IPCore' (6#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/IPCore.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 406.434 ; gain = 151.074
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 406.434 ; gain = 151.074
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a200tfbg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/dcp2/PictureROM_in_context.xdc] for cell 'ROMInst'
+Finished Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/dcp2/PictureROM_in_context.xdc] for cell 'ROMInst'
+Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/dcp3/DCM_PLL_in_context.xdc] for cell 'DCM_INST'
+Finished Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/dcp3/DCM_PLL_in_context.xdc] for cell 'DCM_INST'
+Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/IPCore.xdc]
+Finished Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/IPCore.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/IPCore.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/IPCore_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/IPCore_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  OBUFDS => OBUFDS: 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 783.637 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 783.637 ; gain = 528.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 783.637 ; gain = 528.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/dcp3/DCM_PLL_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/.Xil/Vivado-1444-DESKTOP-FE9FEV0/dcp3/DCM_PLL_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for DCM_INST. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ROMInst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 783.637 ; gain = 528.277
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element PosX_reg_reg was removed.  [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/syncGenarator.v:27]
+WARNING: [Synth 8-6014] Unused sequential element PosY_reg_reg was removed.  [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/syncGenarator.v:28]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 783.637 ; gain = 528.277
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module IPCore 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+Module syncGenarator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element sync_inst/PosX_reg_reg was removed.  [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/syncGenarator.v:27]
+WARNING: [Synth 8-6014] Unused sequential element sync_inst/PosY_reg_reg was removed.  [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/syncGenarator.v:28]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 783.637 ; gain = 528.277
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'DCM_INST/clk_out1' to pin 'DCM_INST/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'DCM_INST/clk_out2' to pin 'DCM_INST/bbstub_clk_out2/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 783.637 ; gain = 528.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 800.859 ; gain = 545.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 802.457 ; gain = 547.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 802.457 ; gain = 547.098
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 802.457 ; gain = 547.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 802.457 ; gain = 547.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 802.457 ; gain = 547.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 802.457 ; gain = 547.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 802.457 ; gain = 547.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |DCM_PLL       |         1|
+|2     |PictureROM    |         1|
+|3     |TMDSencode    |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |DCM_PLL    |     1|
+|2     |PictureROM |     1|
+|3     |TMDSencode |     1|
+|4     |LUT1       |     2|
+|5     |LUT2       |     6|
+|6     |LUT3       |     8|
+|7     |LUT4       |     9|
+|8     |LUT5       |    10|
+|9     |LUT6       |    41|
+|10    |FDRE       |    20|
+|11    |IBUF       |     1|
+|12    |OBUFDS     |     4|
++------+-----------+------+
+
+Report Instance Areas: 
++------+------------+--------------+------+
+|      |Instance    |Module        |Cells |
++------+------------+--------------+------+
+|1     |top         |              |   131|
+|2     |  sync_inst |syncGenarator |    96|
++------+------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 802.457 ; gain = 547.098
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 802.457 ; gain = 169.895
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 802.457 ; gain = 547.098
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/TMDSencode.edf]
+Finished Parsing EDIF File [D:/MyFiles/sophomore2/SystemDesignLab/lab3/src/TMDSencode.edf]
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/ActiveArea_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/blue_IBUF[0]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/blue_IBUF[1]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/blue_IBUF[2]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/blue_IBUF[3]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/blue_IBUF[4]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/blue_IBUF[5]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/blue_IBUF[6]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/blue_IBUF[7]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/green_IBUF[0]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/green_IBUF[1]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/green_IBUF[2]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/green_IBUF[3]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/green_IBUF[4]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/green_IBUF[5]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/green_IBUF[6]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/green_IBUF[7]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/hSync_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/pixel_clk_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/red_IBUF[0]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/red_IBUF[1]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/red_IBUF[2]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/red_IBUF[3]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/red_IBUF[4]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/red_IBUF[5]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/red_IBUF[6]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/red_IBUF[7]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-35] Removing redundant IBUF, TMDS_inst/reset_IBUF_inst, from the path connected to top-level port: reset 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/tmds_clk_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. TMDS_inst/vSync_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. TMDS_inst/TMDSch0_OBUF_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. TMDS_inst/TMDSch1_OBUF_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. TMDS_inst/TMDSch2_OBUF_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 37 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 820.520 ; gain = 576.691
+INFO: [Common 17-1381] The checkpoint 'D:/MyFiles/sophomore2/SystemDesignLab/lab3/vivado/IPCore.runs/synth_1/IPCore.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file IPCore_utilization_synth.rpt -pb IPCore_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 820.520 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 19 17:07:57 2023...

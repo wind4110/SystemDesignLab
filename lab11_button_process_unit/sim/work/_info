@@ -1,0 +1,201 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/sim
+vbutton_press_tb
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 M]P[S=<nM0fVMF9Hh>_KM3
+ILGEUMO8ig:hVV;4o_^nIK3
+Z1 dD:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/sim
+w1684051809
+8D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit_tb.v
+FD:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit_tb.v
+L0 3
+Z2 OL;L;10.4;61
+!s108 1684053978.931000
+!s107 D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit_tb.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vbutton_unit
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 dkTACjf6VIaS9YUee21LW3
+IQG^fON@XgK6_`bMTSOAm10
+R1
+w1684053537
+8D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit.v
+FD:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit.v
+L0 1
+R2
+!s108 1684053978.836000
+!s107 D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\button_process_unit.v|
+!i113 0
+R3
+vcontrol
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 LZGoiN<Bf0aOdd?bfTKaP0
+I@ce1jj[AM<Yb=GGiEe@fC3
+R1
+w1683722093
+8D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/control.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/control.v
+L0 1
+R2
+!s108 1684053979.024000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/control.v|
+!i113 0
+R3
+vcounter_n
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 :i133c8>elmYcKGmYFfio1
+In[ncVmmP0SD@ncjaV[VcT1
+R1
+w1681358417
+8D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/counter_n.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/counter_n.v
+L0 1
+R2
+!s108 1684053979.119000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/counter_n.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/counter_n.v|
+!i113 0
+R3
+vdebouncer
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 08<T[o8n]Xci0A7IAjC7J0
+IFz=R:6X[;DTBV3aTNef``1
+R1
+w1683720294
+8D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/debouncer.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/debouncer.v
+L0 1
+R2
+!s108 1684053979.212000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/debouncer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/debouncer.v|
+!i113 0
+R3
+vdffre
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 g0gj_gRz7g@1fF@;eF0dn0
+I^H4NoVCc1GVA3g7N7D`HF1
+R1
+w1681358092
+8D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\dffre.v
+FD:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\dffre.v
+L0 1
+R2
+!s108 1684053979.302000
+!s107 D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\dffre.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\MyFiles\sophomore2\SystemDesignLab\lab11_button_process_unit\src\dffre.v|
+!i113 0
+R3
+vfulladder_n
+!s110 1683721863
+!i10b 1
+!s100 <HNE:Bia4YkN^K=FJmzaG3
+I5mMBjTbRLL5;l5fBeYi0^0
+R0
+R1
+w1682851154
+8D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/fulladder_n.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/fulladder_n.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1683721863.969000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/fulladder_n.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/fulladder_n.v|
+!i113 0
+R3
+vpulsecon
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 cQG5X=1YYH>g=6a]]IXSK0
+IKAU=QMPfBNW?^=`cIZ>7@1
+R1
+w1684053947
+8D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/pulsecon.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/pulsecon.v
+L0 1
+R2
+!s108 1684053979.390000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/pulsecon.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/pulsecon.v|
+!i113 0
+R3
+vsynch
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;WO9iKh]fahHUX;Q1CN1<1
+Ifh]0C^a;z0QhgJ`EA2R=n0
+R1
+w1683722803
+8D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/synch.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/synch.v
+L0 1
+R2
+!s108 1684053979.477000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/synch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/synch.v|
+!i113 0
+R3
+vtimer
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 UYlDZ>CV6j4HTR=LTdlRA3
+I<zZD;cMKz_Mn_:oM``FOa2
+R1
+w1681994282
+8D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/timer.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/timer.v
+L0 1
+R2
+!s108 1684053979.569000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/timer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab11_button_process_unit/src/timer.v|
+!i113 0
+R3

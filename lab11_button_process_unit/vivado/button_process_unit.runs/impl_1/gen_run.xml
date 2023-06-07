@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg484-1" LaunchTime="1684054152">
+  <File Type="PWROPT-DCP" Name="button_unit_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="button_unit_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="button_unit.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="button_unit_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="button_unit_reports.tcl"/>
+  <File Type="BG-DRC" Name="button_unit.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="button_unit_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="button_unit_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="button_unit.hwdef"/>
+  <File Type="OPT-DCP" Name="button_unit_opt.dcp"/>
+  <File Type="OPT-DRC" Name="button_unit_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="button_unit_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="button_unit_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="button_unit_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="button_unit_placed.dcp"/>
+  <File Type="PLACE-IO" Name="button_unit_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="button_unit_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="button_unit_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="button_unit_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="button_unit_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="button_unit_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="button_unit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="button_unit_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="button_unit_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="button_unit_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="button_unit_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="button_unit_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="button_unit.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="button_unit_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="button_unit_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="button_unit_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="button_unit_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="button_unit_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="button_unit_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="button_unit.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="button_unit_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="button_unit.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="button_unit_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="button_unit.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="button_unit_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="button_unit.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="button_unit_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="button_unit_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="button_unit_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="button_unit_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="button_unit_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="button_unit_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="button_unit_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="button_unit_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="button_unit.vdi"/>
+  <File Type="ROUTE-CLK" Name="button_unit_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="button_unit_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="button_unit_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="button_unit_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="button_unit_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="button_unit_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="button_unit.nky"/>
+  <File Type="BITSTR-BMM" Name="button_unit_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="button_unit.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="button_unit.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="button_unit.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/counter_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/debouncer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/dffre.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/pulsecon.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/synch.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/timer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/button_process_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/fulladder_n.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="button_unit"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../src/button_process_unit.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../src/button_process_unit.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

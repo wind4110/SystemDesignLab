@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyFiles/sophomore2/SystemDesignLab/lab7/sim/TimerTop
+T_opt
+!s110 1682848280
+VCGH4Fmzzh1IY0BZzCVCJk2
+04 10 4 work full_adder fast 0
+=1-b07b2549f430-644e3a15-1db-3624
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+R0
+vdds
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 U>G22>`XMDkYfzJAzoB2E1
+IBoak4N87AGZ_2M0>hkz=f2
+Z2 dD:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/sim
+w1682852040
+8D:\MyFiles\sophomore2\SystemDesignLab\lab15_dds\src\dds.v
+FD:\MyFiles\sophomore2\SystemDesignLab\lab15_dds\src\dds.v
+L0 1
+Z3 OL;L;10.4;61
+!s108 1682852305.878000
+!s107 D:\MyFiles\sophomore2\SystemDesignLab\lab15_dds\src\dds.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\MyFiles\sophomore2\SystemDesignLab\lab15_dds\src\dds.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vdds_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 DXPFA<RN5AG]L4jUNhBWX2
+ITnGf8LFBW[KgoANeIFa5@3
+R2
+w1513568947
+8D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dds_tb.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dds_tb.v
+L0 8
+R3
+!s108 1682852305.981000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dds_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dds_tb.v|
+!i113 0
+R4
+vdffre
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 g0gj_gRz7g@1fF@;eF0dn0
+IQj`I`ThNce@J8PY?z]Mae3
+R2
+w1681358092
+8D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dffre.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dffre.v
+L0 1
+R3
+!s108 1682852306.087000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dffre.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/dffre.v|
+!i113 0
+R4
+vfull_adder
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7T8AfoAZ?8iT87[POKE7_3
+IGV<EN;EH1_]ER4Noecl0K3
+R2
+w1678976244
+8D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/full_adder.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/full_adder.v
+L0 1
+R3
+!s108 1682848192.693000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/full_adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/full_adder.v|
+!i113 0
+R4
+vfulladder_n
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 <HNE:Bia4YkN^K=FJmzaG3
+IeAF5QHH6gjMXZT=;T0C4A3
+R2
+w1682851154
+8D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/fulladder_n.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/fulladder_n.v
+L0 1
+R3
+!s108 1682852306.305000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/fulladder_n.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/fulladder_n.v|
+!i113 0
+R4
+vsine_rom
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 D3K_4AT3T4NM_<B_nTOVQ1
+IkXB9TP`@gdUhfo:?dAf[j1
+R2
+w1682774810
+8D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/sine_rom.v
+FD:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/sine_rom.v
+L0 1
+R3
+!s108 1682852306.190000
+!s107 D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/sine_rom.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/MyFiles/sophomore2/SystemDesignLab/lab15_dds/src/sine_rom.v|
+!i113 0
+R4
