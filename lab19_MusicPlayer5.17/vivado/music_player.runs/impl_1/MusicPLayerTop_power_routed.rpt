@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date             : Mon Jun  5 16:03:56 2023
+| Date             : Wed Jun  7 16:25:52 2023
 | Host             : DESKTOP-FE9FEV0 running 64-bit major release  (build 9200)
 | Command          : report_power -file MusicPLayerTop_power_routed.rpt -pb MusicPLayerTop_power_summary_routed.pb -rpx MusicPLayerTop_power_routed.rpx
 | Design           : MusicPLayerTop

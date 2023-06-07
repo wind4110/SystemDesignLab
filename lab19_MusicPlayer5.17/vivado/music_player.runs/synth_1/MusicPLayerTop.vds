@@ -2,8 +2,8 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Mon Jun  5 16:01:01 2023
-# Process ID: 10092
+# Start of session at: Wed Jun  7 16:22:40 2023
+# Process ID: 13228
 # Current directory: D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1
 # Command line: vivado.exe -log MusicPLayerTop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MusicPLayerTop.tcl
 # Log file: D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/MusicPLayerTop.vds
@@ -15,14 +15,14 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 1396 
+INFO: Helper process launched with PID 13276 
 WARNING: [Synth 8-1935] empty port in module declaration [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/synch.v:4]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 367.102 ; gain = 111.160
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 366.945 ; gain = 111.281
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'MusicPLayerTop' [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/MusicPlayerTop.v:6]
-INFO: [Synth 8-638] synthesizing module 'DCM_Audio' [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-10092-DESKTOP-FE9FEV0/realtime/DCM_Audio_stub.v:5]
-INFO: [Synth 8-256] done synthesizing module 'DCM_Audio' (1#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-10092-DESKTOP-FE9FEV0/realtime/DCM_Audio_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'DCM_Audio' [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-13228-DESKTOP-FE9FEV0/realtime/DCM_Audio_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'DCM_Audio' (1#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-13228-DESKTOP-FE9FEV0/realtime/DCM_Audio_stub.v:5]
 INFO: [Synth 8-638] synthesizing module 'button_process_unit' [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/button_process_unit.v:4]
 INFO: [Synth 8-256] done synthesizing module 'button_process_unit' (2#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/button_process_unit.v:4]
 INFO: [Synth 8-638] synthesizing module 'music_player' [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/music_player.v:1]
@@ -103,7 +103,7 @@ INFO: [Synth 8-638] synthesizing module 'AudioInterface' [D:/MyFiles/sophomore2/
 INFO: [Synth 8-256] done synthesizing module 'AudioInterface' (20#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/AudioInterface.v:10]
 INFO: [Synth 8-256] done synthesizing module 'MusicPLayerTop' (21#1) [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/MusicPlayerTop.v:6]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 402.473 ; gain = 146.531
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 402.293 ; gain = 146.629
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -113,15 +113,15 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 402.473 ; gain = 146.531
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 402.293 ; gain = 146.629
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a200tfbg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-10092-DESKTOP-FE9FEV0/dcp1/DCM_MUSIC_in_context.xdc] for cell 'DCM_inst'
-Finished Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-10092-DESKTOP-FE9FEV0/dcp1/DCM_MUSIC_in_context.xdc] for cell 'DCM_inst'
+Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-13228-DESKTOP-FE9FEV0/dcp1/DCM_MUSIC_in_context.xdc] for cell 'DCM_inst'
+Finished Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-13228-DESKTOP-FE9FEV0/dcp1/DCM_MUSIC_in_context.xdc] for cell 'DCM_inst'
 Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/MusicPlayer.xdc]
 INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/MusicPlayer.xdc:1]
 Finished Parsing XDC File [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/MusicPlayer.xdc]
@@ -134,32 +134,32 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 803.613 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 803.973 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 803.613 ; gain = 547.672
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 803.973 ; gain = 548.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a200tfbg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 803.613 ; gain = 547.672
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 803.973 ; gain = 548.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-10092-DESKTOP-FE9FEV0/dcp1/DCM_MUSIC_in_context.xdc, line 4).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-10092-DESKTOP-FE9FEV0/dcp1/DCM_MUSIC_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-13228-DESKTOP-FE9FEV0/dcp1/DCM_MUSIC_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/.Xil/Vivado-13228-DESKTOP-FE9FEV0/dcp1/DCM_MUSIC_in_context.xdc, line 5).
 Applied set_property DONT_TOUCH = true for DCM_inst. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 803.613 ; gain = 547.672
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 803.973 ; gain = 548.309
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-6014] Unused sequential element dout_reg was removed.  [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/song_rom.v:26]
 WARNING: [Synth 8-6014] Unused sequential element q_reg was removed.  [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/beattimer.v:16]
 WARNING: [Synth 8-6014] Unused sequential element dout_reg was removed.  [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/frequency_rom.v:15]
 WARNING: [Synth 8-6014] Unused sequential element dout_reg was removed.  [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/sine_rom.v:7]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 803.613 ; gain = 547.672
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 803.973 ; gain = 548.309
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -337,7 +337,7 @@ WARNING: [Synth 8-6014] Unused sequential element music_player_inst/note_player_
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\music_player_inst/note_player_music/FreqROM_player/dout_reg[19] )
 WARNING: [Synth 8-3332] Sequential element (music_player_inst/note_player_music/FreqROM_player/dout_reg[19]) is unused and will be removed from module MusicPLayerTop.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 803.613 ; gain = 547.672
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 803.973 ; gain = 548.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -352,6 +352,7 @@ ROM:
 |sine_rom       | dout_reg                                                     | 1024x16       | Block RAM      | 
 |MusicPLayerTop | music_player_inst/song_reader_music/song_rom_reader/dout_reg | 128x12        | Block RAM      | 
 |MusicPLayerTop | music_player_inst/note_player_music/dffre_player/q_reg       | 64x19         | Block RAM      | 
+|MusicPLayerTop | music_player_inst/note_player_music/dds_player/sine/dout_reg | 1024x16       | Block RAM      | 
 +---------------+--------------------------------------------------------------+---------------+----------------+
 
 ---------------------------------------------------------------------------------
@@ -371,13 +372,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'DCM_inst/clk_out2' to pin
 WARNING: [Synth 8-565] redefining clock 'clk'
 INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 803.613 ; gain = 547.672
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 803.973 ; gain = 548.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 803.613 ; gain = 547.672
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 803.973 ; gain = 548.309
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -391,7 +392,7 @@ Start Technology Mapping
 INFO: [Synth 8-4480] The timing for the instance music_player_inst/song_reader_music/song_rom_reader/dout_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 INFO: [Synth 8-4480] The timing for the instance music_player_inst/note_player_music/dds_player/sine/dout_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 809.164 ; gain = 553.223
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 807.113 ; gain = 551.449
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -415,7 +416,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 809.164 ; gain = 553.223
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 807.113 ; gain = 551.449
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -428,7 +429,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 809.164 ; gain = 553.223
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 807.113 ; gain = 551.449
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -440,25 +441,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 809.164 ; gain = 553.223
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 807.113 ; gain = 551.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 809.164 ; gain = 553.223
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 807.113 ; gain = 551.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 809.164 ; gain = 553.223
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 807.113 ; gain = 551.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 809.164 ; gain = 553.223
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 807.113 ; gain = 551.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -526,11 +527,11 @@ Report Instance Areas:
 |24    |      dffre_synch2     |dffre_0                   |     1|
 +------+-----------------------+--------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 809.164 ; gain = 553.223
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 807.113 ; gain = 551.449
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 809.164 ; gain = 152.082
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 809.164 ; gain = 553.223
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 807.113 ; gain = 149.770
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 807.113 ; gain = 551.449
 INFO: [Project 1-571] Translating synthesized netlist
 Parsing EDIF File [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/button_process_unit.edf]
 Finished Parsing EDIF File [D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/button_process_unit.edf]
@@ -774,8 +775,8 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 74 Infos, 127 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 824.906 ; gain = 580.477
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 819.020 ; gain = 574.832
 INFO: [Common 17-1381] The checkpoint 'D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/vivado/music_player.runs/synth_1/MusicPLayerTop.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file MusicPLayerTop_utilization_synth.rpt -pb MusicPLayerTop_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 824.906 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Jun  5 16:01:38 2023...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 819.020 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  7 16:23:13 2023...
