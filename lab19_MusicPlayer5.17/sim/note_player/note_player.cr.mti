@@ -5,19 +5,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	note_player
 
-} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/note_player_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/note_player_tb.v
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/frequency_rom.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/frequency_rom.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module note_player_tb_v
+-- Compiling module frequency_rom
 
 Top level modules:
-	note_player_tb_v
-
-} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dds.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dds.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module dds
-
-Top level modules:
-	dds
+	frequency_rom
 
 } {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dffre.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dffre.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -26,19 +19,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	dffre
 
-} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/frequency_rom.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/frequency_rom.v
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dds.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/dds.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module frequency_rom
+-- Compiling module dds
 
 Top level modules:
-	frequency_rom
+	dds
 
-} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/sine_rom.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/sine_rom.v
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/note_player_tb.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/note_player_tb.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module sine_rom
+-- Compiling module note_player_tb_v
 
 Top level modules:
-	sine_rom
+	note_player_tb_v
 
 } {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/fulladder_n.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/fulladder_n.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -47,12 +40,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	fulladder_n
 
-} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_player.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_player.v
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/sine_rom.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/sine_rom.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module control_player
+-- Compiling module sine_rom
 
 Top level modules:
-	control_player
+	sine_rom
+
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/beattimer.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/beattimer.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module beattimer
+
+Top level modules:
+	beattimer
 
 } {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/counter_n.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/counter_n.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -61,11 +61,11 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	counter_n
 
-} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/beattimer.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/beattimer.v
+} {} {}} D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_player.v {1 {vlog -work work -vopt -stats=none D:/MyFiles/sophomore2/SystemDesignLab/lab19_MusicPlayer5.17/src/control_player.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module beattimer
+-- Compiling module control_player
 
 Top level modules:
-	beattimer
+	control_player
 
 } {} {}}
